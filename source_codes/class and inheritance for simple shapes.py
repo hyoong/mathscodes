@@ -15,6 +15,7 @@ class Shape:
         # This method should be overridden in the subclass
         pass
 
+
 # Define the Square class, which inherits from the Shape class
 class Square(Shape):
     # Initialize the class with the length of one side as an argument
@@ -26,11 +27,12 @@ class Square(Shape):
 
     # Override the area method to calculate the area of the square
     def area(self):
-        return self.length ** 2
+        return self.length**2
 
     # Override the perimeter method to calculate the perimeter of the square
     def perimeter(self):
         return self.length * 4
+
 
 # Define the Circle class, which inherits from the Shape class
 class Circle(Shape):
@@ -48,6 +50,7 @@ class Circle(Shape):
     # Override the perimeter method to calculate the circumference of the circle
     def perimeter(self):
         return 2 * 3.14 * self.radius
+
 
 # Create a Square object with length 5
 square = Square(5)
