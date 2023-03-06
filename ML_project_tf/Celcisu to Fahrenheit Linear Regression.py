@@ -1,3 +1,5 @@
+# pylint: disable-all
+
 import tensorflow as tf
 import textwrap
 import numpy as np
